@@ -1,0 +1,17 @@
+body{
+	font-size: 20px;
+	text-align: center;
+}
+.box{
+	min-height: 100px;
+	background: red;
+	margin-bottom: 20px;
+	border: 1px solid;
+}
+.mh{
+	min-height: 300px;
+	background: grey;
+}
+form{
+	text-align: left;
+}

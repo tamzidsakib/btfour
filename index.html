@@ -1,0 +1,762 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Bootstrap</title>
+  </head>
+  <body>
+ <!-- container start    -->
+<section>
+  <h2>Container</h2>
+  <div class="container">
+    <div class="box"></div>
+  </div>
+  <h2>Container-fluid</h2>
+  <div class="Container-fluid">
+    <div class="box"></div>
+  </div>
+  <h2>Container-fluid with gutter space</h2>
+  <div class="Container-fluid p-2">
+    <div class="box"></div>
+  </div>
+  <h2>Container-sm</h2>
+  <div class="container-sm">
+    <div class="box"></div>
+  </div>
+  <h2>Container-md</h2>
+  <div class="container-md">
+    <div class="box"></div>
+  </div>
+  <h2>Container-lg</h2>
+  <div class="container-lg">
+    <div class="box"></div>
+  </div>
+  <h2>Container-xl</h2>
+  <div class="container-xl">
+    <div class="box"></div>
+  </div>
+</section>
+<!-- container end -->
+
+<!-- grid start -->
+<section>
+  <h2>Grid</h2>
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-6">
+      <div class="box"></div>
+    </div> 
+    <div class="col-lg-6">
+      <div class="box"></div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4">
+      <div class="box"></div>
+    </div> 
+    <div class="col-lg-4">
+      <div class="box"></div>
+    </div>
+    <div class="col-lg-4">
+      <div class="box"></div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-3">
+      <div class="box"></div>
+    </div> 
+    <div class="col-lg-6">
+      <div class="box"></div>
+    </div>
+    <div class="col-lg-3">
+      <div class="box"></div>
+    </div>
+    </div>
+  </div>
+
+  <h2>Flex</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg">
+        <div class="box"></div>
+      </div>
+      <div class="col-lg">
+        <div class="box"></div>
+      </div>
+      <div class="col-lg">
+        <div class="box"></div>
+      </div>
+      <div class="col-lg">
+        <div class="box"></div>
+      </div>
+      <div class="col-lg">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Grid-Flex</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg">
+        <div class="box"></div>
+      </div>
+      <div class="col-lg">
+        <div class="box"></div>
+      </div>
+      <div class="col-lg-5">
+        <div class="box"></div>
+      </div>
+      <div class="col-lg">
+        <div class="box"></div>
+      </div>
+      <div class="col-lg">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Grid-offset</h2>
+  <div class="container">
+    <div class="row">
+      <div class="offset-lg-4 col-lg-4">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Justify content center</h2>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <h2>Layout define by different screens</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12  col-md-8 col-sm-4 col-6">
+        <div class="box"></div>
+      </div>
+       <div class="col-lg-6 col-md-4 col-sm-4 col-6">
+        <div class="box"></div>
+      </div>
+       <div class="col-lg-6 col-md-12 col-sm-4 col-12">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+
+<h2>Variable width content</h2>
+<div class="container">
+  <div class="row justify-content-lg-center">
+    <div class="col-lg col-md">
+      <div class="box"></div>
+    </div>
+    <div class="col-lg-auto col-md-auto">
+      <div class="box"><h3>Variable width content</h3></div>
+    </div>
+    <div class="col-lg col-md-2">
+      <div class="box"></div>
+    </div>
+  </div>
+</div>
+
+<h2>Row-columns</h2>
+<div class="container">
+  <div class="row row-cols-3">
+    <div class="col">
+      <div class="box">Data</div>
+    </div>
+    <div class="col">
+      <div class="box">Data</div>
+    </div>
+    <div class="col">
+      <div class="box">Data</div>
+    </div>
+    <div class="col">
+      <div class="box">Data</div>
+    </div>
+    <div class="col">
+      <div class="box">Data</div>
+    </div>
+    <div class="col">
+      <div class="box">Data</div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-cols-4">
+    <div class="col">
+      <div class="box">col</div>
+    </div>
+    <div class="col">
+      <div class="box">col</div>
+    </div>
+    <div class="col-4">
+      <div class="box">col-4</div>
+    </div>
+    <div class="col">
+      <div class="box">col</div>
+    </div>
+  </div>
+</div>
+
+<h2>Nesting</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+      <div class="box">col-4</div>
+    </div>
+    <div class="col-8">
+      <div class="box">col-8
+        <div class="row">
+         <div class="col-4">
+           <div class="box">col-4</div>
+         </div> 
+          <div class="col-8">
+           <div class="box">col-8</div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+</section>
+<!-- grid end     -->
+
+
+<!-- columns start -->
+<section>
+  <h2>Column vertical alignment</h2>
+  <h3>Top</h3>
+  <div class="container">
+    <div class="row mh align-items-start">
+      <div class="col">
+        <div class="box"></div>
+      </div>
+      <div class="col">
+        <div class="box"></div>
+      </div>
+      <div class="col">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+  <h3>Center</h3>
+  <div class="container">
+    <div class="row mh align-items-center">
+      <div class="col">
+        <div class="box"></div>
+      </div>
+      <div class="col">
+        <div class="box"></div>
+      </div>
+      <div class="col">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+  <h3>Bottom</h3>
+  <div class="container">
+    <div class="row mh align-items-end">
+      <div class="col">
+        <div class="box"></div>
+      </div>
+      <div class="col">
+        <div class="box"></div>
+      </div>
+      <div class="col">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+  <h3>Column self align</h3>
+  <div class="container">
+    <div class="row mh">
+      <div class="col align-self-start">
+        <div class="box"></div>
+      </div>
+      <div class="col align-self-center">
+        <div class="box"></div>
+      </div>
+      <div class="col align-self-end">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Column horizontal alignment</h2>
+  <h3>Left</h3>
+  <div class="container">
+    <div class="row mh justify-content-start">
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+  <h3>Center</h3>
+  <div class="container">
+    <div class="row mh justify-content-center">
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+  <h3>Right</h3>
+  <div class="container">
+    <div class="row mh justify-content-end">
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+  <h3>Around</h3>
+  <div class="container">
+    <div class="row mh justify-content-around">
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+  <h3>Between</h3>
+  <div class="container">
+    <div class="row mh justify-content-between">
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+  <h3>Evenly</h3>
+  <div class="container">
+    <div class="row mh justify-content-evenly">
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+      <div class="col-4">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+
+    <h3>Order classes</h3>
+  <div class="container">
+    <div class="row">
+      <div class="col order-5">
+        <div class="box">order-5</div>
+      </div>
+      <div class="col order-1">
+        <div class="box">order-1</div>
+      </div>
+      <div class="col">
+        <div class="box">unordered</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col order-last">
+        <div class="box">order-last</div>
+      </div>
+      <div class="col order">
+        <div class="box">unordered</div>
+      </div>
+      <div class="col order-first">
+        <div class="box">order-first</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- columns end -->
+
+<!-- Gutters start -->
+<section>
+  <h3>Horizontal gutter spacing</h3>
+  <div class="container">
+    <div class="row mh gx-5">
+      <div class="col">
+        <div class="box"></div>
+      </div>
+      <div class="col">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Vertical gutter spacing</h3>
+  <div class="container overflow-hidden">
+    <div class="row mh gy-5">
+      <div class="col-6">
+        <div class="box"></div>
+      </div>
+      <div class="col-6">
+        <div class="box"></div>
+      </div>
+      <div class="col-6">
+        <div class="box"></div>
+      </div>
+      <div class="col-6">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+  <h3>Horizontal-Vertical gutter spacing</h3>
+  <div class="container overflow-hidden">
+    <div class="row mh g-2">
+      <div class="col-6">
+        <div class="box"></div>
+      </div>
+      <div class="col-6">
+        <div class="box"></div>
+      </div>
+      <div class="col-6">
+        <div class="box"></div>
+      </div>
+      <div class="col-6">
+        <div class="box"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Gutters end -->
+
+<!-- content start -->
+<section>
+  <h1>Content</h1>
+  <h2>Typography</h2>
+  <h1>h1. Bootstrap heading</h1>
+  <h2>h2. Bootstrap heading</h2>
+  <h3>h3. Bootstrap heading</h3>
+  <h4>h4. Bootstrap heading</h4>
+  <h5>h5. Bootstrap heading</h5>
+  <h6>h6. Bootstrap heading</h6>
+
+  <h2>Customizing headings</h2>
+  <h3>Fancy display heading <small class="text-muted">with customized display setting</small></h3>
+
+  <h2>Display headings</h2>
+  <h1 class="display-1">Display 1</h1>
+  <h2 class="display-2">Display 2</h2>
+  <h3 class="display-3">Display 3</h3>
+  <h4 class="display-4">Display 4</h4>
+  <h5 class="display-5">Display 5</h5>
+  <h6 class="display-6">Display 6</h6>
+
+  <h2>Lead</h2>
+  <p class="lead">This is Lead paragraph. It stands out from the rest.</p>
+
+  <h2>Inline text elements</h2>
+  <p>You can use the mark tag to <mark>highlight text</mark></p>
+  <p><del>This line of text is meant to be treated as deleted text.</del></p>
+  <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+  <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+  <p><u>This line of text will render as underlined.</u></p>
+  <p><small>This line of text is meant to be treated as fine print.</small></p>
+  <p><strong>This line of text is meant to be bold.</strong></p>
+  <p><em>This line of text is meant to be italic.</em></p>
+
+
+  <h2>Abbreviations</h2>
+  <p><abbr title="Attribute">attr</abbr></p>
+  <p><abbr title="Hypertext Markup Language">HTML</abbr></p>
+
+
+  <h2>Blockquote with source aligned right</h2>
+
+  <figure class="text-end">
+    <blockquote class="blockquote">A well-known quote, contained in a blockquote element.</blockquote>
+    <figcaption class="blockquote-footer">Someone famous in <cite title="source title">Source Title</cite></figcaption>
+  </figure>
+
+
+   <h2>List-unstyled</h2>
+   <ul class="list-unstyled">
+     <li>Data</li>
+     <li>Data</li>
+     <li>Nested list:
+      <ul>
+        <li>nested data</li>
+        <li>nested data</li>
+        <li>nested data</li>
+      </ul>
+     </li>
+     <li>Data</li>
+     <li>Data</li>
+   </ul>
+
+   <h2>List-inline</h2>
+   <ul class="list-inline">
+     <li class="list-inline-item">Item</li>
+     <li class="list-inline-item">Item</li>
+     <li class="list-inline-item">Item</li>
+     <li class="list-inline-item">Item</li>
+     <li class="list-inline-item">Item</li>
+   </ul>
+
+   <h2>Responsive image</h2>
+   <img src="images/image.jpg" class="rounded img-fluid" alt="bootstrap">
+
+   <h2>Image thumbnail</h2>
+   <img src="images/thumbnail.jpg" class="img-thumbnail" alt="bootstrap">
+
+   <h2>Image alignment (float)</h2>
+   <div class="overflow-hidden">
+   <img src="images/thumbnail.jpg" class="rounded float-start" alt="bootstrap">
+   <img src="images/thumbnail.jpg" class="rounded float-end" alt="bootstrap">
+   </div>
+
+
+   <h2>Responsive colored table</h2>
+   <div class="table-responsive">
+   <table class="table table-success table-striped table-bordered table-hover">
+     <thead class="table-dark">
+     <tr>
+       <th>Name</th>
+       <th>Name</th>
+       <th>Name</th>
+       <th>Name</th>
+       <th>Name</th>
+       <th>Name</th>
+       <th>Name</th>
+       <th>Name</th>
+       <th>Name</th>
+       <th>Name</th>
+       <th>Name</th>
+       <th>Name</th>
+     </tr>
+     </thead>
+     <tbody>
+     <tr>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+     </tr>
+     <tr>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+     </tr>
+     <tr>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+     </tr>
+     <tr>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+     </tr>
+     </tbody>
+     <tfoot>
+     <tr>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+       <td>Data</td>
+     </tr>
+     </tfoot>
+   </table>
+   </div>
+
+   <h2>Figure with caption</h2>
+   <figure>
+     <img src="images/image.jpg" class="figure-img img-fluid rounded" alt="bootstrap">
+     <figcaption class="figure-caption">A caption for the image above</figcaption>
+   </figure>
+</section>
+<!-- content end -->
+
+<!-- form start -->
+<section class="p-5">
+  <h1>Form validation</h1>
+  <form class="row g-3 needs-validation" novalidate>
+
+    <!-- first name -->
+  <div class="col-md-6">
+    <label for="f_name" class="form-label">First name</label>
+    <input type="text" class="form-control f_name" id="f_name" name="f_name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please provide your first name.
+    </div>
+  </div>
+
+  <!-- last name -->
+  <div class="col-md-6">
+    <label for="l_name" class="form-label">Last name</label>
+    <input type="text" class="form-control l_name" id="l_name" name="l_name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please provide your last name.
+    </div>
+  </div>
+
+<!-- city -->
+  <div class="col-md-6">
+    <label for="city" class="form-label">City</label>
+    <input type="text" class="form-control city" id="city" name="city" required>
+     <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+
+
+  <!-- state -->
+  <div class="col-md-3">
+    <label for="state" class="form-label">State</label>
+    <select class="form-select state" id="state" name="state" required>
+      <option selected disabled value="">Choose...</option>
+      <option value="1">Alberta</option>
+      <option value="2">Ontario</option>
+      <option value="3">British Columbia</option>
+      <option value="4">Manitoba</option>
+      <option value="5">New Brunswick</option>
+      <option value="6">Newfoundland and Labrador</option>
+      <option value="7">Nova Scotia</option>
+      <option value="8">Nunavut</option>
+    </select>
+     <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+
+  <!-- zip -->
+  <div class="col-md-3">
+    <label for="zip" class="form-label">Zip</label>
+    <input type="text" class="form-control zip" id="zip" name="zip" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+
+  <!-- checkbox -->
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+
+  <!-- submit button -->
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+</section>
+<!-- form end -->
+    
+
+    <!-- JS links -->
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+   
+  </body>
+</html>
